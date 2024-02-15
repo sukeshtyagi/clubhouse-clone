@@ -1,5 +1,4 @@
 .phoneConfirmContainer {
-  margin-top: 20px;
   padding: 3em 1.7em;
   display: flex;
   flex-direction: column;
@@ -9,11 +8,19 @@
   background-color: #f2f0e4;
   position: relative;
 }
+.backBtn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.backBtn img {
+  width: 20px;
+}
 .phoneConfirmContainer h1 {
   font-size: 1.5em;
   font-weight: 500;
   font-style: normal;
-  margin-bottom: 0;
+  margin: 0.25em 0;
   columns: var(--textColor);
 }
 .phoneConfirmContainer p {
@@ -29,14 +36,28 @@
 .phoneConfirmContainer p span {
   font-weight: 500;
 }
-.backBtn {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+
+.customBtn {
+  /* Your custom styles for the button */
+  background-color: #3278b7;
+  color: #fff;
+  border-radius: 2em;
+  padding: 0.5em 01.5em;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 1em;
 }
-.backBtn img {
+.customBtn > img {
   width: 20px;
+  margin-left: 8px;
 }
+
+/*PhoneConfirmation css ends here */
+/*CodeConfirm css starts from below here */
+
 .notificationContainer {
   margin-top: 2em;
   background-color: #fff;
@@ -66,7 +87,7 @@
   width: 50%;
   padding: 0.5em;
   border-top: 1px solid #ccc;
-  color: var(--btnBgColor);
+  color: #3278b7;
 }
 .action_btn a:first-child {
   border-right: 1px solid #ccc;

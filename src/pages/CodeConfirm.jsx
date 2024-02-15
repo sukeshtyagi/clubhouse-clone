@@ -32,11 +32,8 @@ function CodeConfirm() {
           Didn't receive it? <span>Tap to resend</span>
         </p>
       </div>
-      <Link
-        to="/allow_notification"
-        className="primaryBtn d-flex align-items-center"
-      >
-        Next <img src="/images/next.png" alt="" className="ml-1" />
+      <Link to="/allow_notification" className={style.customBtn}>
+        Next <img src="/images/next.png" alt="" className="" />
       </Link>
     </div>
   );

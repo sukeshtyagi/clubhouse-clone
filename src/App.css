@@ -11,14 +11,14 @@ body {
   font-size: 1em;
   font-family: "Neutrif Pro";
 }
+/*
 button {
   outline: none;
 }
+
 .primaryBtn {
   text-decoration: none;
   margin-top: 15px;
-}
-.primaryBtn {
   background-color: var(--btnBgColor);
   color: #fff;
   border-radius: 2em;
@@ -36,3 +36,4 @@ a:hover {
   text-decoration: none;
   color: orange;
 }
+*/

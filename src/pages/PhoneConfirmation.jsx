@@ -23,12 +23,8 @@ function PhoneConfirmation() {
         By entering your number, you're agreeing to our{" "}
         <span> Terms of service and Privacy Policy. </span> Thanks!
       </p>
-      <Link
-        exact
-        to="/code_confirm"
-        className="primaryBtn d-flex align-items-center"
-      >
-        Next <img src="/images/next.png" alt="" className="ml-1" />
+      <Link exact to="/code_confirm" className={style.customBtn}>
+        Next <img src="/images/next.png" alt="" className="" />
       </Link>
     </div>
   );

@@ -25,6 +25,7 @@
   font-size: 1em;
   font-weight: 400;
   font-style: normal;
+  padding-right: 1em;
 }
 .actionBtn {
   align-self: center;
@@ -38,4 +39,15 @@
   font-size: 0.875em;
   font-weight: 400;
   font-style: normal;
+}
+.actionBtn > a:first-child {
+  text-decoration: none;
+  color: var(--textColor);
+  background-color: #7db9ed;
+  border-radius: 2em;
+  padding: 0.5em 1.5em;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
 }
