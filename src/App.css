@@ -11,3 +11,24 @@ body {
   font-size: 1em;
   font-family: "Neutrif Pro";
 }
+button {
+  outline: none;
+}
+.primaryBtn {
+  text-decoration: none;
+  margin-top: 15px;
+}
+.primaryBtn {
+  background-color: var(--btnBgColor);
+  color: #fff;
+  border-radius: 2em;
+  padding: 0.5em 1.5em;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+.primaryBtn img {
+  width: 20px;
+  margin-left: 8px;
+}

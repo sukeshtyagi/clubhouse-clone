@@ -12,7 +12,12 @@ function PhoneConfirmation() {
         <img src="/images/back.png" alt="" />
       </Link>
 
-      <PhoneInput international defaultCountry="IN" value={value} />
+      <PhoneInput
+        international
+        defaultCountry="IN"
+        value={value}
+        onChange={setValue}
+      />
       <h1>Enter your phone </h1>
       <p>
         By entering your number, you're agreeing to our{" "}
