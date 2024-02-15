@@ -57,7 +57,7 @@ function Welcome() {
           Get your username{/* */}
           {/*  <img src="" alt="" /> */}
         </Link>
-        <Link>Have an invite text?Sign in</Link>
+        <Link exact to='/invite'>Have an invite text?Sign in</Link>
       </div>
     </div>
   );
