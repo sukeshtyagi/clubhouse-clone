@@ -1,0 +1,25 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: .5em 1em;
+}
+img {
+  margin: 3px;
+  padding: 2px;
+  height: 40;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.nav_items img {
+  width: 60px;
+  height: 60px;
+  margin: 6px;
+  padding: 2px;
+
+}
