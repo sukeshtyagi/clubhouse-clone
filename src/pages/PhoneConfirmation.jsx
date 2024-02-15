@@ -25,7 +25,7 @@ function PhoneConfirmation() {
       </p>
       <Link
         exact
-        to="/code-confirm"
+        to="/code_confirm"
         className="primaryBtn d-flex align-items-center"
       >
         Next <img src="/images/next.png" alt="" className="ml-1" />

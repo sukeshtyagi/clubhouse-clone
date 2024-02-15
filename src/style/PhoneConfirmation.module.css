@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
   background-color: #f2f0e4;
   position: relative;
 }
@@ -36,4 +36,44 @@
 }
 .backBtn img {
   width: 20px;
+}
+.notificationContainer {
+  margin-top: 2em;
+  background-color: #fff;
+  border-radius: 1em;
+  box-shadow: 0px 0px 5px #ccc;
+}
+.notificationContainer h3 {
+  font-size: 1.2em;
+  color: #000;
+  font-weight: 500;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 0.3em;
+}
+.notificationContainer P {
+  font-size: 0.825em;
+  font-weight: 500;
+  line-height: 1.3;
+  margin: auto;
+}
+
+.action_btn {
+  position: relative;
+}
+.action_btn a {
+  display: inline-block;
+  width: 50%;
+  padding: 0.5em;
+  border-top: 1px solid #ccc;
+  color: var(--btnBgColor);
+}
+.action_btn a:first-child {
+  border-right: 1px solid #ccc;
+}
+.hand_icon {
+  width: 50px;
+  position: absolute;
+  right: 75px;
+  bottom: -70px;
 }
