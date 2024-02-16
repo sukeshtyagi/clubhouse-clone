@@ -5,7 +5,7 @@ function AppLayout({ children }) {
     <div
       style={{
         backgroundColor: "#f2f0e4",
-        height: "100vh",
+        height: " auto",
         width: "100%",
         position: "relative",
         maxWidth: "500px",
