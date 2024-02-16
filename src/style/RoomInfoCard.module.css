@@ -27,7 +27,6 @@
 }
 
 .roomMembers:first-child > img:nth-child(2) {
-  background-color: orange;
   position: relative;
   top: 1em;
   left: -1.2em;
