@@ -5,11 +5,12 @@ function AppLayout({ children }) {
     <div
       style={{
         backgroundColor: "#f2f0e4",
-        height: " auto",
+        height: "180vh",
         width: "100%",
         position: "relative",
         maxWidth: "500px",
         margin: "auto",
+        overflow: "hidden",
       }}
       className="app_layout"
     >

@@ -1,0 +1,68 @@
+.bottomSheetContainer {
+  border-radius: 1.5em 1.5em 0 0;
+  padding: 1.5em 1em;
+  position: relative;
+  height: 100%;
+}
+.switch_line {
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 35px;
+  background-color: #ccc;
+}
+.addTopicBtn {
+  background-color: transparent;
+  border: none;
+  color: #28ae61;
+}
+.selectRoomContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+}
+.selectRoom {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 3px solid #ccc;
+  align-items: center;
+}
+.selectRoom button {
+  background: transparent;
+  border-radius: 1em;
+  padding: 0.25em 0.9em;
+  padding-top: 0.5em;
+  line-height: 1.5;
+  color: rgb(65, 64, 66);
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+.selectRoom button.active {
+  border: 2px solid lightseagreen;
+  background-color: lightblue;
+}
+.selectRoom button div {
+  background-color: lightseagreen;
+  border-radius: 2em;
+}
+
+.selectRoomContainer p {
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2em;
+  color: rgb(65, 64, 66);
+  margin-top: 0.5em;
+}
+.letGoBtn {
+  font-size: 1.5em;
+  font-weight: 600;
+  border: none;
+  border-radius: 2em;
+  color: #fff;
+  background-color: #28ae61;
+  padding: 0.5em 1.2em;
+  text-align: center;
+}
