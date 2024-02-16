@@ -16,6 +16,22 @@ function Home() {
   const [cardId, setCardId] = useState(1);
   return (
     <>
+      {loaderVisibility && (
+        <div
+          style={{
+            position: "fixed",
+            top: "0",
+            left: "0",
+            right: "0",
+            bottom: "0",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <img src="/images/loader1.gif" width={100} height={100} alt="" />
+        </div>
+      )}
       <Header />
       <div className={style.home_container}>
         <DailyInfoCard />
@@ -30,6 +46,7 @@ function Home() {
           <AiOutlinePlus />
           Start a room
         </button>
+
         <button>
           <BsGrid3X3Gap />
         </button>
