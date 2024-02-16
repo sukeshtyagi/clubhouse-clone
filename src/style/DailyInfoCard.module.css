@@ -1,0 +1,40 @@
+.dailyCard {
+  background-color: #e7e4d5;
+  border-radius: 1em;
+  padding: 1.5em 1em;
+}
+.dailyCard > div {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0.5em;
+}
+.dailyCard > div > span {
+  text-align: end;
+  width: 20%;
+}
+.dailyCard > div > div {
+  margin-left: 1.5em;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.dailyCard span {
+  color: rgb(65, 64, 66);
+  font-size: 1em;
+  font-weight: 500;
+}
+.dailyCard p {
+  line-height: 1;
+  margin-top: 0.25em;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 270px;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.dailyCard p:hover {
+  overflow: visible;
+  white-space: normal;
+}
