@@ -6,6 +6,7 @@ import PhoneConfirmation from "./pages/PhoneConfirmation";
 import CodeConfirm from "./pages/CodeConfirm";
 import AllowNotification from "./pages/AllowNotification";
 import Home from "./pages/Home";
+import Explore from "./pages/Explore";
 
 function App() {
   return (
@@ -41,6 +42,14 @@ function App() {
           element={
             <PlanLayout>
               <AllowNotification />
+            </PlanLayout>
+          }
+        />
+         <Route
+          path="/explore"
+          element={
+            <PlanLayout>
+              <Explore />
             </PlanLayout>
           }
         />

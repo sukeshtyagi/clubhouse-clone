@@ -1,0 +1,147 @@
+.roomDetailContainer {
+  height: 100;
+  background: #f2f0e4;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+  background-color: #fff;
+  border-radius: 1.5em 1.5em;
+  margin: 0.5em 0.5em;
+}
+.headChildDiv {
+  display: flex;
+  align-items: center;
+}
+.arrow_icon {
+  width: 50px;
+  transform: rotate(-90deg);
+}
+.profile_image {
+  margin-left: 1em;
+  width: 40px;
+}
+.head span {
+  font-size: 1.45em;
+  font-weight: 500;
+  margin-left: 0.5em;
+  position: relative;
+  top: 3px;
+}
+.head a {
+  text-decoration: none;
+  color: rgb(65, 64, 66);
+}
+.file_icon {
+  font-size: 35px;
+  outline: none;
+  border: none;
+}
+/* room card styling*/
+.roomDetailCard {
+  background-color: #fff;
+  padding: 1em 1.5em 1em 1.5em;
+  height: 75vh;
+  border-radius: 1.5em 1.5em;
+  margin: -0.5em 0.5em;
+  margin-bottom: 0.5em;
+}
+.roomDetailCardChildDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1.5em 1em;
+}
+.membercontainer {
+  position: relative;
+}
+.audio_icon {
+  position: absolute;
+  bottom: 35px;
+  right: 0;
+  background-color: #fff;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 3px #ccc;
+  color: #28ae61;
+}
+.membercontainer p {
+  color: #000;
+  font-size: 1em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.spanStar {
+  margin-right: 0.2em;
+  color: #fff;
+  width: 16px;
+  height: 18px;
+  line-height: 0.9;
+  background-color: #28ae61;
+  border-radius: 50%;
+  font-size: 30px;
+}
+/*footer styles*/
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leaveConversation {
+  width: auto;
+  background-color: transparent;
+  font-size: 1.5em;
+}
+.leaveConversation img {
+  width: 45px;
+}
+.leaveConversation button {
+  margin-left: 1em;
+  color: #28ae61; /*!importatnt removed*/
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 015px;
+  padding-right: 1em;
+  border-radius: 2em;
+  border: none;
+}
+.conversationOptions {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.plusButton {
+  border: none;
+  margin-right: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 45px;
+  padding: 0.5px 1px;
+  line-height: 0.5;
+}
+.peaceButton {
+  border-radius: 50%;
+  font-size: 30px;
+  border: none;
+  background: transparent;
+  margin-right: 15px;
+}
+.micButton {
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 30px;
+  border: none;
+  margin-right: 1.5em;
+}

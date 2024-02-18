@@ -1,0 +1,187 @@
+/*header conatainer div styles*/
+.exploreContainer {
+  background-color: #f2f0e4;
+  height: 100%;
+  overflow: auto;
+}
+.exploreHeader {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 2em;
+  margin-left: 0;
+  margin-bottom: 0;
+  justify-content: center;
+}
+.exploreHeader img {
+  position: absolute;
+  left: 0.5em;
+  top: auto;
+  width: 35px;
+}
+.exploreHeader h6 {
+  font-size: 2em;
+  font-weight: 500;
+  color: #000;
+}
+.inputSearch {
+  margin: 0 3em;
+  margin-top: 1em;
+  margin-bottom: 01em;
+  padding: 0.5em 0;
+  background-color: #fff;
+  border: none;
+  border-radius: 1em;
+  outline: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: flex-start;
+}
+.inputSearch img {
+  width: 30px;
+  position: relative;
+  top: auto;
+  left: 0;
+  margin-right: 0.3em;
+  margin-left: 0.3em;
+}
+.inputSearch input {
+  width: 87%;
+  border: none;
+  background-color: #f2f0e4;
+  padding: 0.25em;
+  padding-left: 0.7em;
+  border-radius: 0.5em;
+  outline: none;
+  text-align: left;
+}
+/*people to follow conatainer div styles*/
+.peopleFollowContainer h6 {
+  font-size: 1.2em;
+  margin: 1em 1em;
+  color: rgb(65, 64, 66);
+}
+
+.peopleContainer {
+  background-color: #fff;
+  margin: 1em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1em;
+  padding-left: 0.5em;
+  border-radius: 1em;
+}
+.peopleSubContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.5em;
+}
+
+.imageDivContainer img {
+  background-color: transparent;
+  background-color: #28ae61;
+  width: 80px;
+  height: 80px;
+}
+.personDetailContainer h5 {
+  color: #000;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.personDetailContainer p {
+  color: rgb(65, 64, 66);
+  font-size: 1em;
+  text-align: left;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.personDetailContainer p:hover {
+  white-space: wrap;
+}
+
+.peopleContainer button {
+  border: 3px solid #3278b7;
+  border-radius: 1.5em;
+  color: #3278b7;
+  font-size: 1.1em;
+  font-weight: 400;
+  padding: 0.25em 01em;
+  margin-left: 2em;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.showMoreBtn {
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 3em;
+  width: fit-content;
+  background-color: #fff;
+  color: rgb(149, 148, 151);
+  margin: 0 auto;
+  margin-bottom: 1em;
+  margin-top: -2.7em;
+  z-index: 5;
+}
+.showMoreBtn button {
+  border: none;
+  border-radius: 2em;
+  background-color: transparent;
+  color: rgb(149, 148, 151);
+  padding: 0.5em 1em;
+  font-size: 1.25em;
+}
+.showMoreBtnDownOutline {
+  background-color: transparent;
+  padding: 0.5em 1em;
+  padding-left: 0em;
+  font-size: 1.25em;
+}
+/*conversation styling */
+.conversationFollowContainer h6 {
+  font-size: 1.2em;
+  margin: 1.5em 1em;
+  color: rgb(149, 148, 151);
+}
+.conversationOuterContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.conversationContainer {
+  background-color: #fff;
+  border: none;
+  border-radius: 1em;
+  padding: 0.5em;
+  padding-left: 1em;
+  margin: 1em 0;
+  margin-top: 0;
+}
+.converseSubContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.iconDivContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  padding-top: 0.5em;
+}
+.iconDivContainer svg {
+  position: relative;
+  bottom: 6px;
+  font-size: 1.3em;
+}
+.iconDivContainer h5 {
+  font-size: 1.35em;
+  color: #000000b0;
+}
